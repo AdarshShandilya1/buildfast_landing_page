@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Recoleta";
+  src: local("Recoleta"),
+    url("src/font/recoleta-regulardemo.otf") format("opentype");
+}
+body{
+  overflow-x: hidden;
+}
+.orange {
+  background-color: #fd5b1d;
+}
+.Recoleta {
+  font-family: "Recoleta";
+}
+.Gray {
+  background-color:#F7F7F8;
+}
+
+
